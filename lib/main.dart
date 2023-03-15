@@ -5,7 +5,7 @@ import './screens/home_screen.dart';
 import './models/db_connect.dart';
 
 void main(){
-  var db = DBconnect();
+  // var db = DBconnect();
  // db.addQuestion(
   //    Question(id: '12',title: 'Streams can be of __________ types.?',options:{
   //    'Two':true,
@@ -13,7 +13,7 @@ void main(){
   //    'One':false,
   //    'Four':false
   //    }));
-  db.fetchQuestions();
+
 
   runApp(
       const MyApp(),

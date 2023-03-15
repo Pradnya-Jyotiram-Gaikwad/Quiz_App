@@ -5,7 +5,7 @@ import '../widgets/question_widget.dart';
 import '../widgets/next_button.dart';
 import '../widgets/option_card.dart';
 import '../widgets/result_box.dart';
-import '../models/db_connect.dart';
+import '../models/db_connect_new.dart';
 
 
 class HomeScreen extends StatefulWidget {
