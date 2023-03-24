@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
   late Future _questions;
 
   Future<List<Question>> getData()async{
-    return db.fetchQuestions();
+    return await db.fetchQuestions();
   }
 
   @override
