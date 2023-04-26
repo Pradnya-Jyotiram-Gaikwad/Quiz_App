@@ -5,7 +5,7 @@ import 'dart:convert';
 
 class DBconnect {
   final url = Uri.parse(
-      'https://quizappv2-8d276-default-rtdb.firebaseio.com/question.json');
+      'https://newquiz-752b1-default-rtdb.firebaseio.com/question.json');
   Future<void> addQuestion(Question question) async {
     http.post(url,
         body: json.encode({
